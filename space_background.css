@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#space-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background-color: black;
+}
+
+#page-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.star {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.star.blue {
+    background-color: #00f;
+}
